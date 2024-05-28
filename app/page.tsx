@@ -16,6 +16,14 @@ export default function Home() {
         touch-action="pan-y"
         ar-placement="wall"
       ></model-viewer>
+      <model-viewer
+        alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+        src="/hadi10.glb"
+        ar
+        shadow-intensity="1"
+        camera-controls
+        touch-action="pan-y"
+      ></model-viewer>
 
       {/* <model-viewer
         src="/Roza_GLB.glb"
