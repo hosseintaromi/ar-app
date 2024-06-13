@@ -1,6 +1,6 @@
 FROM node:22-slim
 COPY . .
-RUN npm install
+RUN npm install --legacy-peer-deps
 RUN npm run build
 WORKDIR /app/
 ENV NODE_ENV production
