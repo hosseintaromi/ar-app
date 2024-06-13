@@ -3,8 +3,6 @@ COPY . .
 RUN npm install --legacy-peer-deps
 RUN npm run build
 WORKDIR /app/
-COPY .next .
-
 ENV NODE_ENV production
 ENV NEXT_SHARP_PATH=/app/node_modules/sharp
 #COPY .next/standalone ./
