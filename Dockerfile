@@ -8,4 +8,4 @@ ENV NEXT_SHARP_PATH=/app/node_modules/sharp
 #COPY .next/standalone ./
 #COPY .next/static ./.next/static
 COPY public ./public
-CMD ["node", "server.js"]
+CMD ["npm", "run", "start"]
