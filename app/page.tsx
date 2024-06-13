@@ -7,7 +7,18 @@ export default function Home() {
       <Script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></Script>
       <model-viewer
         alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
-        src="/hadi7.glb"
+        src="/hadi15.glb"
+        ar
+        environment-image="https://modelviewer.dev/shared-assets/environments/moon_1k.hdr"
+        poster="shared-assets/models/NeilArmstrong.webp"
+        shadow-intensity="1"
+        camera-controls
+        touch-action="pan-y"
+        ar-placement="wall"
+      ></model-viewer>
+      <model-viewer
+        alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+        src="/hadi14.glb"
         ar
         environment-image="https://modelviewer.dev/shared-assets/environments/moon_1k.hdr"
         poster="shared-assets/models/NeilArmstrong.webp"
