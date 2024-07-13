@@ -199,35 +199,35 @@ export default function Home() {
       file: '100 - stand divari jadid meshki goldan sefid.glb',
     }
     , {
-      placement: 'wall',
+      placement: 'floor',
       file: '111 - abchekan tasho choobi.glb',
     }
     , {
-      placement: 'wall',
+      placement: 'floor',
       file: '112 - abchekan tasho sini meshki.glb',
     }
     , {
-      placement: 'wall',
+      placement: 'floor',
       file: '121 - ja ghashoghi meshki.glb',
     }
     , {
-      placement: 'wall',
+      placement: 'floor',
       file: '131 - abchekan 120cm meshki.glb',
     }
     , {
-      placement: 'wall',
+      placement: 'floor',
       file: '132 - abchekan 120cm sefid.glb',
     }
     , {
-      placement: 'wall',
+      placement: 'floor',
       file: '141 - abchekan ikea sefid.glb',
     }
     , {
-      placement: 'wall',
+      placement: 'floor',
       file: '142 - abchekan ikea meshki.glb',
     }
     , {
-      placement: 'wall',
+      placement: 'floor',
       file: '151 - abchekan do tabaghe modern.glb',
     }
   ]

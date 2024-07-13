@@ -111,7 +111,7 @@ a {
 /* استایل برای دستگاه‌های با عرض بیشتر از 768 پیکسل (دسکتاپ) */
 @media only screen and (min-width: 768px) {
   model-viewer {
-    width: 1400px;
-    height: 1400px;
+    width: 1000px;
+    height: 1000px;
   }
 }
