@@ -2,18 +2,15 @@
 import { useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react'
 
-const Id = () => {
-    const searchParams = useSearchParams()
+const Id = ({ data }: { data: string }) => {
+    // const searchParams = useSearchParams()
     const [file, setFile] = useState('')
-
-
+    // const data = searchParams.get('file')
 
     useEffect(() => {
-        // setTimeout(() => {
-        setFile(searchParams.get('file'))
-        // }, 1000);
+        if (!data) return
+        setFile(data)
         const modelViewerParameters = document.querySelector(`model-viewer#sphere`);
-        console.log(modelViewerParameters);
         modelViewerParameters.addEventListener("load", (ev) => {
             const model = modelViewerParameters?.model?.materials
             console.log(model);
@@ -77,7 +74,7 @@ const Id = () => {
             <model-viewer
                 // skybox-height="1000m"
                 id={'sphere'}
-                src={`../glb/${file}`}
+                src={`/glb/${data}`}
                 ar
                 shadow-intensity="1"
                 camera-controls
